@@ -30,7 +30,7 @@ wrapt = ">=1.11,<2"
 
 [[package]]
 name = "atlassian-python-api"
-version = "3.20.1"
+version = "3.25.0"
 description = "Python Atlassian REST API Wrapper"
 category = "main"
 optional = false
@@ -565,6 +565,7 @@ python-versions = ">=3.6.1"
 
 [package.dependencies]
 email-validator = {version = ">=1.0.3", optional = true, markers = "extra == \"email\""}
+python-dotenv = {version = ">=0.10.4", optional = true, markers = "extra == \"dotenv\""}
 typing-extensions = ">=3.7.4.3"
 
 [package.extras]
@@ -1002,7 +1003,7 @@ pyyaml = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8, <3.11"
-content-hash = "b79a3f857645bd3dea2cd47f0679255fa2474447bd294c7ba26157b60d536ac2"
+content-hash = "afb161fa61d8cffd22240d8a78a3bfad203b08a305d93a9bed91157d43ce65ef"
 
 [metadata.files]
 anyio = [
@@ -1014,7 +1015,7 @@ astroid = [
     {file = "astroid-2.11.7.tar.gz", hash = "sha256:bb24615c77f4837c707669d16907331374ae8a964650a66999da3f5ca68dc946"},
 ]
 atlassian-python-api = [
-    {file = "atlassian-python-api-3.20.1.tar.gz", hash = "sha256:04798e282ab55f65235e62a8236b37cf764e05ff70c0011ddf679501a25f8445"},
+    {file = "atlassian-python-api-3.25.0.tar.gz", hash = "sha256:0e0afe60f7005ed94fb3abd42d13b9c9fd34d1baff1a184a4e066bc9ceadb055"},
 ]
 atomicwrites = [
     {file = "atomicwrites-1.4.0-py2.py3-none-any.whl", hash = "sha256:6d1784dea7c0c8d4a5172b6c620f40b6e4cbfdf96d783691f2e1302a7b88e197"},
