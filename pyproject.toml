@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "jira-bugzilla-integration"
-version = "2.0.1"
+version = "3.0.1"
 description = "jira-bugzilla-integration"
 authors = ["@mozilla/jbi-core"]
 license = "MPL"
@@ -8,7 +8,7 @@ license = "MPL"
 [tool.poetry.dependencies]
 python = ">=3.8, <3.11"
 fastapi = "^0.73.0"
-pydantic = {version = "^1.9.1", extras = ["email"]}
+pydantic = {version = "^1.9.1", extras = ["dotenv", "email"]}
 uvicorn = {extras = ["standard"], version = "^0.18.2"}
 gunicorn = "^20.1.0"
 prometheus-client = "^0.14.1"
@@ -17,7 +17,7 @@ atlassian-python-api = "^3.20.1"
 dockerflow = "2022.1.0"
 Jinja2 = "^3.1.2"
 pydantic-yaml = {extras = ["pyyaml","ruamel"], version = "^0.6.1"}
-sentry-sdk = "^1.7.2"
+sentry-sdk = "^1.8.0"
 
 
 [tool.poetry.dev-dependencies]
@@ -44,7 +44,7 @@ testpaths = [
 ]
 env_override_existing_values = true
 env_files = [
-    "config/local_dev.env"
+    ".env.example"
 ]
 
 [tool.pylint]
