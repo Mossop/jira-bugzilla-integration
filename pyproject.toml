@@ -12,7 +12,7 @@ pydantic = {version = "^1.9.1", extras = ["dotenv", "email"]}
 uvicorn = {extras = ["standard"], version = "^0.18.2"}
 gunicorn = "^20.1.0"
 python-bugzilla = "^3.2.0"
-atlassian-python-api = "^3.25.0"
+atlassian-python-api = "^3.26.0"
 dockerflow = "2022.7.0"
 Jinja2 = "^3.1.2"
 pydantic-yaml = {extras = ["pyyaml","ruamel"], version = "^0.6.1"}
